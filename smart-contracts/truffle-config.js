@@ -24,7 +24,7 @@
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
-var HDWalletProvider = require("truffle-hdwallet-provider");
+var HDWalletProvider = require("@truffle/hdwallet-provider");
 
 // Avant de lancer truffle : export METAMASK_MNEMONIC="XXX" && export INFURA_PROJECT_ID="YYY"
 // Metamask mnemonic
